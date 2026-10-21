@@ -1,0 +1,2 @@
+docker build -t my-custom-web-server .
+docker run -d -p 8080:80 my-custom-web-server
